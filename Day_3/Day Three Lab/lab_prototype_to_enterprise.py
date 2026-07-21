@@ -516,6 +516,11 @@ def generate_report(topic: str) -> ReportState:
 
 
 def save_report(state: ReportState, filename: str = "final_report.txt") -> None:
+    # REPORTS_DIR lets a container write to a mounted volume
+    # (see Updated_2026/NEXT_STEPS_DOCKER.md). Default: current dir.
+    out_dir = os.getenv("REPORTS_DIR", ".")
+    os.makedirs(out_dir, exist_ok=True)
+    filename = os.path.join(out_dir, filename)
     with open(filename, "w", encoding="utf-8") as f:
         f.write("AI GENERATED REPORT\n" + "=" * 60 + "\n\n")
         f.write(f"Topic: {state.get('topic')}\n")
