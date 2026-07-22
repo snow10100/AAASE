@@ -1,0 +1,18 @@
+# Day 4 lab — Securing & Monitoring the Agent
+# Same core stack as Day 2/3; nothing heavy added.
+
+langgraph>=1.0
+langchain-openai>=0.3      # only needed when MOCK is off (real model calls)
+python-dotenv>=1.0
+fastapi>=0.115
+uvicorn>=0.30
+pydantic>=2.7
+
+# ---- OPTIONAL ------------------------------------------------------
+# Real tracing (Step Obs-2). Only needed if you run with TRACE=1.
+# langfuse>=2.0
+#
+# NOTE: MOCK=1 runs the whole lab offline with ZERO keys and only
+# needs langgraph + fastapi + pydantic. Install langchain-openai and
+# set OPENAI_API_KEY / OPENAI_BASE_URL only when you want live models
+# (OpenRouter free models work — see Day 2 skeleton, Step 2).
