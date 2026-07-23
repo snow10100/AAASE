@@ -10,7 +10,7 @@ Advanced Agentic AI Systems Engineering
 
 ---------------
 #### Append SDAIA Academy to your cap stone submission 
-`https://github.com/SDAIAAcademy`
+[SDAIAAcademy](https://github.com/SDAIAAcademy) `https://github.com/SDAIAAcademy`
 
 
 ---------------
