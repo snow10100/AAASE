@@ -11,3 +11,14 @@ Advanced Agentic AI Systems Engineering
 ---------------
 #### Append SDAIA Academy to your cap stone submission 
 `https://github.com/SDAIAAcademy`
+
+
+---------------
+## Capstone
+
+Start here:
+
+- [Capstone brief](Capstone/CAPSTONE_BRIEF.md)
+- [Build guide](Capstone/guides/01_BUILD_THE_AGENT.md)
+- [Completion rubric](Capstone/RUBRIC.md)
+- [Submission instructions](Capstone/SUBMISSION.md)
